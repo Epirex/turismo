@@ -84,7 +84,7 @@ body {
 
 /* Cambio fuente en respuestas */
 label.qsm-input-label {
-	font-size: 28px !important;
+	font-size: 24px !important;
 }
 
 /* Agrandar resultado final */
@@ -169,12 +169,6 @@ h1 {
   padding: 0px !important;
 }
 
-.quiz_section .qmn_radio_answers label, body .quiz_section .qmn_check_answers label, body .quiz_section .qmn_accept_answers label {
-  font-size: 26px !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-  font-family: Helvetica !important;
-}
 .mlw_qmn_new_question {
   font-size: 48px !important;
 }
@@ -263,6 +257,6 @@ div label img {
 }
 
 .aligncenter {
-  mix-blend-mode: multiply;
+ mix-blend-mode: multiply;
     text-align: center;
 }
