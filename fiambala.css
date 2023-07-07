@@ -1,0 +1,267 @@
+body {
+	/*background-image: url("http://supranet.ar/digital/wp-content/uploads/2023/05/papel.jpg");*/
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.fluentform label.ff-el-image-input-src {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+    height: 180px;
+    width: 150px;
+	margin-left: 20px;
+}
+
+.preg1 {
+	margin-left: 375px;
+	align-content: center;
+}
+
+.preg15 {
+	margin-left: 125px;
+	align-content: center;
+}
+
+.preg14 {
+	margin-left: 225px;
+	align-content: center;
+}
+
+.respuesta {
+	align-content: center;
+	border: 20px solid #ced4da;
+	font-size: 40px;
+	border-radius: 20px;
+}
+
+/* .btfinalizar {
+	font-size: 40px;
+	border-radius: 20px;
+} */
+
+#ff_11_principal {
+	align-content: center;
+	text-align: center;
+	border: 0px solid #ced4da;
+	font-size: 30px;
+}
+
+/* Transformar respuestas en botones */
+.qmn_mc_answer_wrap {
+	background-color: #CBBB9F ;
+	padding: 15px;
+	border-radius: 10px;
+    margin: 10px 0 5px 0 !important;
+}
+
+/* Centrado general */
+.columnae {
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+}
+
+/* Espacio entre palabras */
+.mlw_qmn_new_question {
+	font-size: 30px;
+	line-height: 1.2;
+	
+}
+
+/* Arreglo margin general */
+.wp-block-archives:not(.alignwide):not(.alignfull), .wp-block-categories:not(.alignwide):not(.alignfull), .wp-block-code, .wp-block-columns:not(.alignwide):not(.alignfull), .wp-block-cover:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter), .wp-block-embed:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter), .wp-block-gallery:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter), .wp-block-group:not(.has-background):not(.alignwide):not(.alignfull), .wp-block-image:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter), .wp-block-latest-comments:not(.aligncenter):not(.alignleft):not(.alignright), .wp-block-latest-posts:not(.aligncenter):not(.alignleft):not(.alignright), .wp-block-media-text:not(.alignwide):not(.alignfull), .wp-block-preformatted, .wp-block-pullquote:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright), .wp-block-quote, .wp-block-quote.is-large, .wp-block-quote.is-style-large, .wp-block-verse, .wp-block-video:not(.alignwide):not(.alignfull) {
+    margin-top: -40px;
+}
+
+/* Cambio fuente en respuestas */
+label.qsm-input-label {
+	font-size: 24px !important;
+}
+
+/* Agrandar resultado final */
+h1 {
+	font-size: 100px !important;
+	font-weight: 700 !important;
+	margin-top: -50px;
+}
+
+/* Centrado boton "rehacer" */
+.qsm_retake_button {
+	left: 30% !important;
+	right: 30% !important;
+	margin: auto !important;
+	position: absolute !important;
+}
+
+/* Arreglo boton "contestar" */
+.qmn_quiz_container.qsm_auto_pagination_enabled .quiz_section.quiz_end .qsm-btn {
+    position: absolute !important;
+	bottom: 15px !important;
+	text-transform: capitalize !important;
+	font-weight: normal !important;
+}
+
+/* Añadir efecto jello a la imagen final */
+.aligncenter, .aligncenter img {
+	animation-duration: 1s;
+	animation-name: jello;
+}
+/* Configuracion efecto jello */
+@keyframes jello {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+.quiz_section {
+  padding: 0px !important;
+}
+
+.mlw_qmn_new_question {
+  font-size: 48px !important;
+}
+.qmn_btn.mlw_qmn_quiz_link.mlw_next {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qmn_btn.mlw_qmn_quiz_link.mlw_previous {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qmn_btn.mlw_qmn_quiz_link.mlw_next:hover {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qmn_btn.mlw_qmn_quiz_link.mlw_previous:hover {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.is-layout-flow.wp-block-column.columnae {
+  margin-top: 50px !important;
+}
+
+div label img {
+  width: 192px !important;
+  height: 192px !important;
+}
+
+.qmn_mc_answer_wrap.qmn_image_option {
+  width: 257px !important;
+}
+
+.is-layout-flow.wp-block-column {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.qsm-btn.qsm-submit-btn.qmn_btn {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qsm-btn.qsm_retake_button.qmn_btn {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qmn_quiz_container .qmn_btn, .qmn_quiz_container .btn {
+  background-color: #3E2723 !important;
+}
+.qsm-btn.qsm-submit-btn.qmn_btn:hover {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qsm-btn.qsm_retake_button.qmn_btn:hover {
+  font-size: 24px !important;
+  background-color: #3E2723 !important;
+}
+.qmn_quiz_container .qmn_btn, .qmn_quiz_container .btn:hover {
+  background-color: #3E2723 !important;
+}
+.qmn_radio_answers {
+  margin-bottom: 50px !important;
+  margin-top: 40px !important;
+}
+
+/* Agrandar informacion de la respuesta */
+.quick-question-res-p {
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  font-size: 18px;
+}
+.qsm-inline-correct-info {
+  font-size: 18px;
+}
+
+.qsm-quiz-container.qsm-quiz-container-1.qmn_quiz_container.mlw_qmn_quiz.qsm_auto_pagination_enabled.quiz_theme_default.random {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Transformar respuestas en botones (encuesta) */
+.qsm_check_answer {
+  background-color: #3E2723;
+	padding: 15px;
+	border-radius: 10px;
+    margin: 10px 0 5px 0 !important;
+}
+
+.aligncenter {
+ mix-blend-mode: multiply;
+    text-align: center;
+}
+
+.qsm-quiz-container.qsm-quiz-container-4.qmn_quiz_container.mlw_qmn_quiz.qsm_auto_pagination_enabled.quiz_theme_default.random {
+  margin-left: 100px;
+  margin-right: 100px;
+}
